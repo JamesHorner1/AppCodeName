@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--The drawer item below have been classified into groups-->
+	<group
+		android:id="@+id/group_1"
+		android:checkableBehavior="single">
+
+		<item
+			android:id="@+id/item_android"
+			android:icon="@drawable/ic_android"
+			android:title="@string/android"/>
+		<item
+			android:id="@+id/item_ios"
+			android:icon="@drawable/ic_ios"
+			android:title="@string/ios"/>
+
+		<item
+			android:id="@+id/item_windows"
+			android:icon="@drawable/ic_windows"
+			android:title="@string/windows"/>
+
+		<item
+			android:id="@+id/item_blackberry"
+			android:icon="@drawable/ic_blackberry"
+			android:title="@string/blackberry"/>
+
+		<item
+			android:id="@+id/item_ionic"
+			android:icon="@drawable/ic_ionic"
+			android:title="@string/ionic"/>
+
+	</group>
+
+	<group
+		android:id="@+id/group_2"
+		android:checkableBehavior="single">
+
+		<item
+			android:id="@+id/item_css"
+			android:icon="@drawable/ic_css"
+			android:title="@string/css"/>
+
+		<item
+			android:id="@+id/item_html"
+			android:icon="@drawable/ic_html"
+			android:title="@string/html"/>
+	</group>
+
+	<group
+		android:id="@+id/group_3"
+		android:checkableBehavior="single">
+
+		<item
+			android:id="@+id/item_ruby"
+			android:icon="@drawable/ic_ruby"
+			android:title="@string/ruby"/>
+		<item
+			android:id="@+id/item_php"
+			android:icon="@drawable/ic_php"
+			android:title="@string/php"/>
+
+		<item
+			android:id="@+id/item_python"
+			android:icon="@drawable/ic_python"
+			android:title="@string/python"/>
+	</group>
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--The drawer items below have been categorized according to headers-->
+	<item
+		android:id="@+id/navigation_item_1"
+		android:title="@string/header_mobile">
+		<menu>
+			<item
+				android:id="@+id/item_android"
+				android:checkable="true"
+				android:icon="@drawable/ic_android"
+				android:title="@string/android"/>
+			<item
+				android:id="@+id/item_ios"
+				android:checkable="true"
+				android:icon="@drawable/ic_ios"
+				android:title="@string/ios"/>
+
+			<item
+				android:id="@+id/item_windows"
+				android:checkable="true"
+				android:icon="@drawable/ic_windows"
+				android:title="@string/windows"/>
+
+			<item
+				android:id="@+id/item_blackberry"
+				android:checkable="true"
+				android:icon="@drawable/ic_blackberry"
+				android:title="@string/blackberry"/>
+
+			<item
+				android:id="@+id/item_ionic"
+				android:checkable="true"
+				android:icon="@drawable/ic_ionic"
+				android:title="@string/ionic"/>
+		</menu>
+	</item>
+
+	<item
+		android:id="@+id/navigation_item_4"
+		android:title="@string/header_web_front_ent">
+		<menu>
+			<item
+				android:id="@+id/item_css"
+				android:checkable="true"
+				android:icon="@drawable/ic_css"
+				android:title="@string/css"/>
+
+			<item
+				android:id="@+id/item_html"
+				android:checkable="true"
+				android:icon="@drawable/ic_html"
+				android:title="@string/html"/>
+		</menu>
+	</item>
+
+	<item
+		android:id="@+id/navigation_i"
+		android:title="@string/header_back_end">
+
+		<menu>
+			<item
+				android:id="@+id/item_ruby"
+				android:checkable="true"
+				android:icon="@drawable/ic_ruby"
+				android:title="@string/ruby"/>
+			<item
+				android:id="@+id/item_php"
+				android:checkable="true"
+				android:icon="@drawable/ic_php"
+				android:title="@string/php"/>
+
+			<item
+				android:id="@+id/item_python"
+				android:checkable="true"
+				android:icon="@drawable/ic_python"
+				android:title="@string/python"/>
+		</menu>
+	</item>
+
+</menu>
